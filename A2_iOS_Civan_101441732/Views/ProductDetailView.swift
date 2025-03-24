@@ -113,7 +113,7 @@ struct ProductDetailView: View {
                                         .padding(8)
                                         .background(Circle().fill(Color.green))
                                     
-                                    Text("View All Products")
+                                    Text("View All Products 📦")
                                         .fontWeight(.medium)
                                         .foregroundColor(.primary)
                                     
