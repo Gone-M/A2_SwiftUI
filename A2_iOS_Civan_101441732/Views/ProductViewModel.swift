@@ -18,7 +18,11 @@ class ProductViewModel: ObservableObject {
         newProduct.desc = desc
         newProduct.price = price
         newProduct.provider = provider
-        try? context.save()
+        do {
+            try context.save()
+        } catch {
+            print("❌ Failed to save product: \(error.localizedDescription)")
+        }
     }
 
     func fetchAllProducts() -> [Product] {
