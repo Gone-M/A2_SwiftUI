@@ -72,7 +72,7 @@ struct AddProductView: View {
                 ScrollView {
                     VStack(spacing: 25) {
                         Image(systemName: "cube.box.fill")
-                            .font(.system(size: 60))
+                            .font(.system(size: 61))
                             .foregroundColor(.blue)
                             .padding()
                             .background(
