@@ -74,7 +74,7 @@ struct ProductListView: View {
                     Spacer()
                     
                     VStack(alignment: .trailing) {
-                        Text("$\(totalValue, specifier: "%.2f")")
+                        Text("💰 $\(totalValue, specifier: "%.2f")")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.green)
