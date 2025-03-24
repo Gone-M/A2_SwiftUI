@@ -122,7 +122,7 @@ struct ProductDetailView: View {
                                     Image(systemName: "chevron.right")
                                         .foregroundColor(.secondary)
                                 }
-                                .padding(.vertical, 8)
+                                .padding(.vertical, 7)
                                 .padding(.horizontal, 12)
                                 .background(
                                     RoundedRectangle(cornerRadius: 10)
