@@ -192,7 +192,7 @@ struct ProductDetailView: View {
                             .foregroundColor(.orange)
                             .padding()
                         
-                        Text("No Products Found")
+                        Text("No Products Found 😢")
                             .font(.title)
                             .fontWeight(.bold)
                             .padding(.bottom, 5)
