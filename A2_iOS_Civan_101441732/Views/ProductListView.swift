@@ -106,8 +106,7 @@ struct ProductListView: View {
                             .font(.system(size: 70))
                             .foregroundColor(.gray)
                             .padding()
-                        
-                        Text("No Products Found")
+                        Text("No Products Found 😕")
                             .font(.title)
                             .fontWeight(.bold)
                             .padding(.bottom, 5)
