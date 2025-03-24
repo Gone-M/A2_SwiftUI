@@ -36,7 +36,7 @@ The app manages a collection of products, each with essential details, and provi
 ## How to Run
 
 1. Clone the repo:
-git clone https://github.com/yourusername/A2_iOS_FirstName_StudentID.git
+git clone https://github.com/Gone-M/A2_SwiftUI.git
 
 2. Open the project in **Xcode**
 3. Build and run on iOS Simulator or real device
