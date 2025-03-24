@@ -16,6 +16,7 @@ struct AddProductView: View {
     @State private var desc = ""
     @State private var price = ""
     @State private var provider = ""
+    @State private var priceError = false
 
     var body: some View {
         ZStack {
@@ -45,6 +46,7 @@ struct AddProductView: View {
                     Text("Add Product")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .foregroundColor(.blue)
                     
                     Spacer()
                     
