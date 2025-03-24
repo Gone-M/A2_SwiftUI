@@ -22,8 +22,8 @@ struct AddProductView: View {
         ZStack {
             LinearGradient(
                 gradient: Gradient(colors: [
-                    colorScheme == .dark ? Color(red: 0.1, green: 0.1, blue: 0.2) : Color(red: 0.9, green: 0.95, blue: 1.0),
-                    colorScheme == .dark ? Color(red: 0.2, green: 0.2, blue: 0.3) : Color(red: 0.8, green: 0.9, blue: 1.0)
+                    colorScheme == .dark ? Color(red: 0.1, green: 0.1, blue: 0.25) : Color(red: 0.85, green: 0.95, blue: 1.0),
+                    colorScheme == .dark ? Color(red: 0.2, green: 0.2, blue: 0.35) : Color(red: 0.75, green: 0.9, blue: 1.0)
                 ]),
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
