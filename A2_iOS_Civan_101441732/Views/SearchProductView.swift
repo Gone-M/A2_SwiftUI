@@ -47,7 +47,9 @@ struct SearchProductView: View {
                     
                     Spacer()
 
-                    Button(action: {}) {
+                    Button(action: {
+                        print("Settings tapped")
+                    }) {
                         Image(systemName: "slider.horizontal.3")
                             .font(.title2)
                             .foregroundColor(.blue)
