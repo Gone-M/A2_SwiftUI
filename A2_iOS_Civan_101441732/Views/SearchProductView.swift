@@ -63,6 +63,9 @@ struct SearchProductView: View {
                     
                     TextField("Search by name or description", text: $query)
                         .padding(.vertical, 10)
+                        .onSubmit {
+                            search()
+                        }
                     
                     if !query.isEmpty {
                         Button(action: {
