@@ -145,7 +145,7 @@ struct SearchProductView: View {
                             Text("No matching products 😕")
                                 .font(.title)
                                 .fontWeight(.bold)
-                                .padding(.bottom, 5)
+                                .padding(.bottom, 6)
                             
                             Text("Try different search terms")
                                 .foregroundColor(.secondary)
