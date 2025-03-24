@@ -47,11 +47,14 @@ struct ProductListView: View {
                     
                     Spacer()
                     
-                    Button(action: {}) {
+                    Button(action: {
+                        print("Sort tapped")
+                    }) {
                         Image(systemName: "arrow.up.arrow.down")
                             .font(.title2)
                             .foregroundColor(.blue)
                     }
+
                     .padding()
                 }
                 .padding(.top, 10)
