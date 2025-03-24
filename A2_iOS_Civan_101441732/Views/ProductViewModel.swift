@@ -26,7 +26,14 @@ class ProductViewModel: ObservableObject {
     }
 
     func fetchAllProducts() -> [Product] {
-        let request: NSFetchRequest<Product> = Product.fetchRequest()
-        return (try? context.fetch(request)) ?? []
+            let request: NSFetchRequest<Product> = Product.fetchRequest()
+            request.sortDescriptors = [NSSortDescriptor(keyPath: \Product.name, ascending: true)]
+            
+            do {
+                return try context.fetch(request)
+            } catch {
+                print("⚠️ Failed to fetch products: \(error.localizedDescription)")
+                return []
+            }
+        }
     }
-}
